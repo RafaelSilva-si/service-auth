@@ -3,7 +3,7 @@
 
 Esse projeto é um [Microserviço](https://www.redhat.com/pt-br/topics/microservices/what-are-microservices) que pertence ao projeto [Tickets Microservices](https://github.com/RafaelSilva-si/tickets-microservices) que exemplifica os conceitos e fundamentos dos microserviços, implementados utilizando Node.js e Express. O foco principal é a criação de uma aplicação de vendas de tickets para eventos. Adotando práticas de Clean Code e TDD (Test-Driven Development), este projeto não apenas oferece uma implementação funcional, mas também destaca a importância da organização do código e da escrita de testes robustos.
 
-### Auth
+## Sobre este Serviço
 O módulo de autenticação gerencia funções essenciais para a segurança do sistema. Ele permite a autenticando-os durante o login com suas credenciais (como email e senha) e gerando tokens de acesso. Além disso, posteriormente será vai ser possivel que o módulo facilita o logout, invalidando tokens e encerrando sessões de usuário. Ele também verifica tokens de autenticação para assegurar que apenas usuários autorizados acessem recursos protegidos. Em caso de esquecimento de senha, o módulo oferece a recuperação de senha, permitindo que usuários redefinam suas senhas de forma segura. Dessa forma, o módulo de autenticação protege dados e funcionalidades sensíveis, garantindo que apenas usuários autenticados tenham acesso a determinadas partes do sistema.
 
 - POST /AUTH
